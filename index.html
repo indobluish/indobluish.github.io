@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>
+        Indo Bluish&trade;
+</title>
+
+<link href="css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="css/fullpage.css" rel="stylesheet" type="text/css" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/fullpage.min.js"></script>
+<script src="js/jquery.circliful.min.js"></script>
+
+<style>
+.kiri {
+    float: left; }
+.kiri h1 {
+    font-size: 30px;text-align: center; color: #1FB4DF
+}
+body {
+    font-family: arial,verdana, sans-serif;
+    font-size: 12px;
+}
+
+
+</style>
+</head>
+
+
+<body>
+<div class="head">
+    <div class="namaweb">
+        indo bluish&trade;
+    </div>
+</div>
+<div id="fullpage">
+    <div class="section " id="section0">
+    <div class="content">
+      <p class="text">
+        we are from indonesian, since june 2015
+      </p>
+    </div>
+  </div>
+    <div class="section" id="section1">
+      <div class="slide" id="slide1">
+        <div class="content">
+            <p class="text">
+              membuat strategi dan bertukar pikiran
+            </p>
+        </div>
+      </div>
+      <div class="slide" id="slide2">
+        <div class="content">
+          <p class="text">
+            untuk performa yang memuaskan
+          </p>
+        </div>
+      </div>
+      <div class="slide" id="slide3">
+        <div class="content">
+          <p class="text">
+            memberikan hasil yang sempurna 
+          </p>
+        </div>
+      </div>
+    </div>
+
+   <div class="section" id="section2">
+    <div class="content">
+      <p class="text">
+        sub clans and partner
+      </p>
+    </div>
+  </div>
+
+<div class="section" id="section3">
+ 
+
+<div style="max-width:90%;padding-top:15%;margin:0 10%;">
+    <div id="myStat1" class="kiri" data-dimension="250" data-text="80%" data-info="Skill" data-width="30" data-fontsize="38" data-percent="80" data-fgcolor="#61a9dc" data-bgcolor="#eee"><h1>Skill</h1></div>        
+    <div id="myStat2" class="kiri" data-dimension="250" data-text="20%" data-info="Mampet" data-width="30" data-fontsize="38" data-percent="20" data-fgcolor="#61a9dc" data-bgcolor="#eee"><h1>Mampet</h1></div>
+    <div id="myStat3" class="kiri" data-dimension="250" data-text="85%" data-info="Team Work" data-width="30" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#eee"><h1>Team Work</h1></div>
+    <div id="myStat4" class="kiri" data-dimension="250" data-text="25%" data-info="Ngehe" data-width="30" data-fontsize="30" data-percent="25" data-fgcolor="#61a9dc" data-bgcolor="#eee"> <h1>Ngehe</h1></div>
+</div>
+
+
+    
+</div>
+</div>
+
+<div class="pesan">
+  Under Construction &copy; INDO BLUISH&trade; </div>
+
+<script type="text/javascript">
+  fullpage.initialize('#fullpage', {
+    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage','5thpage', 'lastPage'],
+    menu: '#menu',
+    css3:true
+  });
+
+$( window ).bind("load", function() {
+        $('#myStat1').circliful();
+        $('#myStat2').circliful();
+        $('#myStat3').circliful();
+        $('#myStat4').circliful();
+   
+    });
+</script>
+</body>
+</html>

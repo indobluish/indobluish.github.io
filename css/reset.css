@@ -1,0 +1,235 @@
+/* Reset CSS
+		 * --------------------------------------- */
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+		form,fieldset,input,textarea,p,blockquote,th,td {
+		    padding: 0;
+		    margin: 0;
+		}
+		a{
+			text-decoration:none;
+		}
+		table {
+		    border-spacing: 0;
+		}
+		fieldset,img {
+		    border: 0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		strong{
+			font-weight: bold;
+		}
+		ol,ul {
+		    list-style: none;
+		    margin:0;
+		    padding:0;
+		}
+		caption,th {
+		    text-align: left;
+
+		}
+		h1,h2,h3,h4,h5,h6 {
+		    font-weight: normal;
+		    font-size: 100%;
+		    margin:0;
+		    padding:0;
+		    color:#444;
+		}
+		q:before,q:after {
+		    content:'';
+		}
+		abbr,acronym { border: 0;
+		}
+
+
+		/* Custom CSS
+		 * --------------------------------------- */
+		body{
+			font-family: arial,helvetica;
+			color: #F2F2F2;
+		}
+		h1{
+			font-size: 6em;
+		}
+		p{
+			font-size: 2em;
+		}
+		.content{
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+		}
+		
+
+		/* Section 1
+		 * --------------------------------------- */
+		#section0{
+			background: url(../img/bg1.png)no-repeat ;
+			background-size: 100% 100%;
+		}
+
+
+		/* Section 2
+		 * --------------------------------------- */
+		#slide1 {
+			background: url(../img/3.jpg)no-repeat ;
+			background-size: 100% 100%;
+		}
+		#slide2 {
+			background: url(../img/bg3stars.png)no-repeat ;
+			background-size: 100% 100%;
+		}
+		#slide3 {
+			background: url(../img/report.png)no-repeat ;
+			background-size: 100% 100%;
+		}
+		/* Section 3
+		 * --------------------------------------- */
+
+		#section2 {
+			background: url(../img/1.png)no-repeat ;
+			background-size: 100% 100%;
+		
+		}
+		#section3 {
+			background: url(../img/bg1.jpg)no-repeat ;
+			background-size: 100% 100%;
+		
+		}
+			/*animasi*/
+	/* Load animation */
+
+		@-webkit-keyframes 
+		load { 0% {
+		stroke-dashoffset:0
+		}
+		}
+		@-moz-keyframes 
+		load { 0% {
+		stroke-dashoffset:0
+		}
+		}
+		@keyframes 
+		load { 0% {
+		stroke-dashoffset:0
+		}
+		}
+
+		/* Container */
+
+		.progresss {
+		  position: relative;
+		  display: inline-block;
+		  padding: 0;
+		  text-align: center;
+		}
+
+		/* Item */
+
+		.progresss>li {
+		  display: inline-block;
+		  position: relative;
+		  text-align: center;
+		  color: #93A2AC;
+		  font-family: Lato;
+		  font-weight: 100;
+		  margin: 2rem;
+		}
+
+		.progresss>li:before {
+		  content: attr(data-name);
+		  position: absolute;
+		  width: 100%;
+		  bottom: -2rem;
+		  font-weight: 400;
+		}
+
+		.progresss>li:after {
+		  content: attr(data-percent);
+		  position: absolute;
+		  width: 100%;
+		  top: 3.7rem;
+		  left: 0;
+		  font-size: 2rem;
+		  text-align: center;
+		}
+
+		.progresss svg {
+		  width: 10rem;
+		  height: 10rem;
+		}
+
+		.progresss svg:nth-child(2) {
+		  position: absolute;
+		  left: 0;
+		  top: 0;
+		  transform: rotate(-90deg);
+		  -webkit-transform: rotate(-90deg);
+		  -moz-transform: rotate(-90deg);
+		  -ms-transform: rotate(-90deg);
+		}
+
+		.progresss svg:nth-child(2) path {
+		  fill: none;
+		  stroke-width: 25;
+		  stroke-dasharray: 629;
+		  stroke: rgba(0,0,0,0.1);
+		  -webkit-animation: load 10s;
+		  -moz-animation: load 10s;
+		  -o-animation: load 10s;
+		  animation: load 10s;
+		}
+		/*============================================*/
+
+		 @font-face {
+         font-family: "Font moonshouse";
+         src: url('moonhouse.ttf');
+         }
+		.namaweb {
+			font-family: "Font moonshouse";
+			font-size: 30px;color: rgba(255, 255, 255, 0.9);
+
+		}
+		.namaweb:hover {
+			color: rgba(255, 255, 255, 1);
+		}
+		.trans {
+			background-color: rgba(0,0,0,0.8);
+
+		}
+		.text {
+			max-width: 50%;
+			padding: 10px;
+			margin: 0 auto;
+			background-color: rgba(249, 249, 249, 0.2);
+			text-transform: capitalize;
+			text-align: justify-content: ;
+			overflow: hidden;
+			color:white;
+text-shadow:0px 0px 3px #ff0000,0px 0px 5px #0000ff;
+			}
+			.section  {
+				background-color: #000000;
+			}
+ .pesan{
+ 	bottom: 0px;
+ 	position: fixed;
+ 	right: 0px;
+ 	color:white;
+ 	font-size: 12px;
+ 	margin-right: 10px;
+	background-color: rgba(249, 249, 249, 0.2);
+	padding: 5px;
+ }
+ .head {
+ 	width: 100%;
+ 	height: auto;
+ 	position: fixed;
+ 	top:0;
+ 	background-color: rgba(0,0,0,0.1);
+ 	z-index: 7;
+ 	padding: 5px 10px;
+ }
